@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="form-section">
+      <div class="geeks-form">
+        <h1 style="color: rgb(0, 23, 156)">Testing PrimeNG Forms</h1> 
+        <h4> Test for Angular PrimeNG Form</h4> 
+        <div class="p-inputgroup geeks-inputgroup">
+          <input type="text" pInputText placeholder="First Name">
+        </div>
+          
+          <br/>
+
+          <div class="p-inputgroup geeks-inputgroup">
+            <input type="text" pInputText placeholder="Last Name">
+          </div>
+
+          <br/>
+
+          <div class="p-inputgroup geeks-inputgroup">
+            <input type="number" pInputText placeholder="Age" min="0">
+          </div>
+
+          <br/>
+          
+          <div class="calendar-container">
+            <p-calendar [(ngModel)]="calendarVal" [showIcon]="true" placeholder="Select Date"></p-calendar>
+        </div>
+          <br/>
+          <br/>
+
+          <button pButton type="button" icon="pi pi-check" label="Booking"></button>
+
+        </div>
+  </div>
+  
+    <div class="hotel-data">
+        <h2>Hotel Recommended</h2>
+        <div class="hotel-info">
+            <p><strong>Hotel Name:</strong> Hotel HALO</p>
+            <p><strong>Location:</strong> Kuala Lumpur, Malaysia</p>
+            <p><strong>Rating:</strong> ★★★★★</p>
+            <!-- Add more hotel data as needed -->
+        </div>
+  
+        <div class="hotel-image">
+            <img src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg" alt="Hotel Image">
+        </div>
+    </div>
+  </div>

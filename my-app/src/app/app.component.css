@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* Example styling for input fields */
+.p-inputgroup {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px; /* Space between input groups */
+}
+
+.p-inputgroup input {
+    flex: 1; /* Take up remaining space */
+    border: none;
+    padding: 8px;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+    font-size: 1em; /* Adjust input text size */
+}
+
+.p-inputgroup input:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow on focus */
+}
+
+.calendar-container /deep/ .p-calendar {
+    width: 500px; /* 调整宽度 */
+    max-width: 100%; /* 设置最大宽度 */
+}
+
+/* component.scss */
+.calendar-container /deep/ .p-datepicker {
+    font-family: Arial, sans-serif; /* 修改字体 */
+}
+
+.calendar-container /deep/ .p-datepicker .p-inputtext {
+    border-radius: 0.25rem; /* 调整输入框的圆角 */
+    border-color: #ccc; /* 修改边框颜色 */
+    padding: 0.5rem; /* 调整内边距 */
+}
+
+.calendar-container /deep/ .p-datepicker .p-datepicker-calendar {
+    background-color: #f0f0f0; /* 修改日期选择器的背景颜色 */
+    border: 1px solid #ccc; /* 修改日期选择器的边框 */
+}
+
+.calendar-container /deep/ .p-datepicker .p-datepicker-calendar table {
+    width: 100%; /* 让表格占满容器 */
+}
+
+.calendar-container /deep/ .p-datepicker .p-datepicker-footer {
+    padding: 0.5rem; /* 调整页脚的内边距 */
+}
+
+.calendar-container /deep/ .p-datepicker .p-datepicker-button {
+    background-color: #007bff; /* 修改按钮背景颜色 */
+    color: #fff; /* 修改按钮文字颜色 */
+    border: none; /* 移除按钮边框 */
+    border-radius: 0.25rem; /* 调整按钮圆角 */
+}
+
+.calendar-container /deep/ .p-datepicker .p-datepicker-button:hover {
+    background-color: #0056b3; /* 按钮悬停时的背景颜色 */
+}
+
+.p-inputgroup button {
+    margin-left: 10px; /* Space between input field and button */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.form-section {
+    flex: 1;
+    margin-right: 30px; /* Adjust spacing between form section and hotel data */
+}
+
+button.p-button {
+    font-size: 15px; /* Example font size */
+    padding: 15px 20px; /* Example padding */
+}
+
+.hotel-data {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.hotel-image img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+    border-radius: 10px; /* Example: Add rounded corners */
+}
